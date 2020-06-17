@@ -1,0 +1,130 @@
+
+
+/* zocial */
+
+*,
+*:before,
+*:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box; 
+}
+.container-login100 {
+  width: 100%;  
+  min-height: 100vh;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+.wrap-login100 {
+  width: 1000px;
+  overflow: hidden;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: stretch;
+  flex-direction: row-reverse;
+
+}
+h1 {
+  color:rgba(255,255,255,.87);
+  margin-left:120px;
+  text-shadow: 4px 5px 5px black; 
+      margin-block-end: 0.3em;
+      font-size:3em;
+}
+
+
+
+form {
+  position:relative;
+  
+    margin-top: 30px;
+    margin-right: auto;
+    margin-bottom: 50px;
+    margin-left: auto;
+  width: 380px;
+  height: auto;
+}
+
+input {
+  padding: 16px;
+  border-radius:7px;
+  border:0px;
+  background: rgba(255,255,255,.2);
+  display: block;
+    margin-top: 5px;
+    margin-right: 15px;
+    margin-bottom: 15px;
+    margin-left: 15px;
+  width: 300px;  
+  color:white;
+  font-size:18px;
+  height: 54px;
+}
+
+input:focus {
+  outline-color: rgba(0,0,0,0);
+  background: rgba(255,255,255,.95);
+  color: #e74c3c;
+}
+
+button {
+  float:right;
+  height: 121px;
+  width: 50px;
+  border: 0px;
+  background: #e74c3c;
+  border-radius:7px;
+  padding: 10px;
+  color:white;
+  font-size:22px;
+  background-image: url("lock.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 70%;
+}  
+
+input::-webkit-input-placeholder {
+  color: white;
+}
+
+input:focus::-webkit-input-placeholder {
+  color: #e74c3c;
+}
+
+body
+{
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+}
+#particles-js
+{
+  width: 100%;
+  height: 100%;
+  background: #000;
+  background: linear-gradient(10deg, #FF80AB, #00796B);
+  position: absolute;
+}
+@font-face {
+   font-family: "Hendangan";
+   src: url("Hendangan.OTF");
+}
+p {
+   font-family: "Hendangan";
+   display: block;
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+    
+}

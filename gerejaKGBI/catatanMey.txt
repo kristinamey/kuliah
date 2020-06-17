@@ -1,0 +1,16 @@
+1. Kesalahan pertama, di DB passwordnya gunain MD5 ya. Soale di Controller Login, password pake MD5. 
+Login dah ku tambahi js alert, jika username/password salah.
+
+2. Kesalahan 2 di DB, biasakan id menggunakan int bukan varchar.
+DB sudah dandani, tapi ga tak kasih FK.
+
+3. 
+
+
+
+Saran:
+1. Table Password di data Admin gausah ditampilin, bisa dengan cara diganti ***** / hapus row password.
+2. Input Password ganti pake PasswordField, biar lebih private.
+3. Nama model dengan controller diselarasin, jika di controller karyawan di model M_karyawan. Biar mudah dipahami.
+4. TELITI!!
+
